@@ -7,7 +7,6 @@
   <?php include("common/header.php") ?>
 </head>
 <style type="text/css" media="screen">
-.table-bordered > thead > tr > th{text-align: center}
 .headerimage{width: 200px;border-radius: 100%;box-shadow:0px 20px 20px -20px #000000;}
 .tdText{vertical-align: middle;width:100%;font-weight: 800;font-size: 16px;letter-spacing: 0.5px;text-align: left;}
 .tdRadio{vertical-align: middle;}
@@ -75,25 +74,20 @@ input[type=search],input[type=date],input[type=text]{
    	<!-- <form action="action_pages/dataCapture.php" method="POST"> -->
      <table id="example1" class="table-bordered table-striped display nowrap" cellspacing="0" width="100%">
         <thead>
-        	<tr>
-                <th rowspan="2">Batch Date</th>
-                <th rowspan="2">Catagory</th>
-                <th rowspan="2">City/Univ/Comp</th>
-                <th rowspan="2">Course</th>
-                <th colspan="3">Co-ordinators</th>
-                <th colspan="3">Faculties</th>
-                <th rowspan="2">Action</th>
-                <th rowspan="2">Url</th>
-
-            </tr>
             <tr>
-                
-                <th>1</th>
-                <th>2</th>
-                <th>3</th>
-                <th>Primary</th>
-                <th>2</th>
-                <th>3</th>
+                <th>Enter Batch Date</th>
+                <th>Catagory for Url</th>
+                <th>Select City/Univ/Comp</th>
+                <th>Select Course</th>
+                <th>Co-ordinator 1</th>
+                <th>Co-ordinator 2</th>
+                <th>Co-ordinator 3</th>
+                <th>Primary Faculty</th>
+                <th>Faculty 2</th>
+                <th>Faculty 3</th>
+                <th>Action</th>
+                <th>Batch Url</th>
+
             </tr>
         </thead>
         
@@ -301,7 +295,7 @@ input[type=search],input[type=date],input[type=text]{
             
       <!-- Hidden Form Revils // -->
           </div>
-          <button class="pricing__action">Done</button>
+          <button class="pricing__action">Submit &amp; Next</button>
         </div>
       </div>
     </section>
