@@ -1,0 +1,61 @@
+.panzoom-parent { border: 2px solid #333; }
+.panzoom-parent .panzoom { border: 2px dashed #666; }
+.upload{
+display: inline-block;
+vertical-align: top;
+width: 140px;
+padding: 1em;
+cursor: pointer;
+}
+.upload:hover{
+background: rgba(255,255,255,.12);
+-webkit-border-radius: 10px;
+box-shadow: inset -1px -1px 0 rgba(0,0,0,.25), inset 1px 1px 0 rgba(255,255,255,.14);
+}
+.upload label{
+display: block;
+margin-top: 5px;
+line-height: 1.4em;
+height: 2.8em;
+overflow: hidden;
+text-overflow: ellipsis;
+cursor: pointer;
+color: rgba(238,238,238,.9);
+font-size: .88em;
+}
+#vertical, #horizontal {
+min-width: 100px;
+min-height: 100px;
+/*border: 1px solid red;*/
+}
+#vertical {
+margin-top: 1em;
+width: 100px;
+}
+.box {
+height: 108px;
+width: 108px;
+text-align: center;
+border-radius: 9px;
+border: none;
+margin-right: 1%;
+position: relative;
+left: 0px;
+padding-left: 0px;
+padding-right: 0px;
+top: 0px;
+}
+.boxAnchor{
+width:108px;
+height: 108px;
+text-align: center;
+background-color: #e7e7e7;
+}
+#horizontal .box, #horizontal .ui-sortable-placeholder {
+display: inline-block;
+}
+.ui-sortable-placeholder {
+border: 1px dotted black;
+visibility: visible !important;
+background-color: inherit;
+}
